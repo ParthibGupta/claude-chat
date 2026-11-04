@@ -1,5 +1,6 @@
 #!/bin/bash
 # One-time setup to run parthib-claude on an always-on Mac.
+# On Windows use setup-windows.ps1 instead.
 # Usage: copy this folder (with .env) to the Mac, then: cd claude-chat && ./setup-mac.sh
 set -euo pipefail
 cd "$(dirname "$0")"
