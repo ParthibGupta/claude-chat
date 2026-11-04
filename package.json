@@ -1,0 +1,11 @@
+{
+  "name": "claude-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env bot.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^5.1.0"
+  }
+}
